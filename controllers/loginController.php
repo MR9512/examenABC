@@ -6,6 +6,7 @@ class loginController
         require_once "models/loginModel.php";
         $this->loginModel = new loginModel();
         $this->urlJS = "../assets/js/usuarios.js";
+        $this->urlCSS = "../assets/css/style.css";
     }
     public function registrar(){
 
